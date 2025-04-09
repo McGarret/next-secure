@@ -96,7 +96,7 @@ export default function SignUp() {
                 </Form>
             </CardContent>
             <CardFooter className="flex justify-between">
-                <p className="text-sm text-muted-foreground w-full">
+                <div className="text-sm text-muted-foreground w-full">
                     Already have an account? {' '}
                     <Link href="/sign-in" className="text-primary hover:underline">
                         Sign in
@@ -113,7 +113,7 @@ export default function SignUp() {
                             Github
                         </Button>
                     </div>
-                </p>
+                </div>
             </CardFooter>
         </Card>
     )

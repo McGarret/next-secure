@@ -79,7 +79,7 @@ export default function SignIn() {
                 </Form>
             </CardContent>
             <CardFooter className="flex justify-between">
-                <p className="text-sm text-muted-foreground w-full">
+                <div className="text-sm text-muted-foreground w-full">
                     Don&apos;t have an yet {' '}
                     <Link href="/sign-up" className="text-primary hover:underline">
                         Sign up
@@ -96,7 +96,7 @@ export default function SignIn() {
                             Github
                         </Button>
                     </div>
-                </p>
+                </div>
             </CardFooter>
         </Card>
     )
